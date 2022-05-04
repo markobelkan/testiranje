@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 9.974 sec <<< FAILURE!
+chech car for first visible car(Base testing of polovni automobili)  Time elapsed: 5.264 sec  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <section class="uk-width-large-1-6 uk-width-medium-1-2 uk-width-1-2 uk-padding-remove">...</section> is not clickable at point (258, 653). Other element would receive the click: <div class="uk-panel uk-panel-box uk-panel-box-primary position-relative" style="border-radius: 5px; border: 1px solid;">...</div>
+  (Session info: chrome=100.0.4896.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PC03', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-175-generic', java.version: '1.8.0_312'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.l9w6Po}, goog:chromeOptions: {debuggerAddress: localhost:34995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d25f4af95e740db58843619d5cff1b4a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at selenium.Base.click(Base.java:33)
+	at selenium.HomePage.firstCar(HomePage.java:42)
+	at stepdefinitions.Steps.i_click_on_first_visible_car(Steps.java:34)
+	at ✽.I click on first visible car(file:///home/himera/Desktop/Testiranje/src/test/resources/polovniAutoobili.feature:9)
+

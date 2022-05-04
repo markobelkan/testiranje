@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-20T17:26:39.725Z",
+        "before": [
+          {
+            "result": {
+              "duration": 903000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Steps.openDriver()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "chech car for first visible car",
+        "description": "",
+        "id": "base-testing-of-polovni-automobili;chech-car-for-first-visible-car",
+        "after": [
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Steps.kill()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2776000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinitions.Steps.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003csection class\u003d\"uk-width-large-1-6 uk-width-medium-1-2 uk-width-1-2 uk-padding-remove\"\u003e...\u003c/section\u003e is not clickable at point (258, 653). Other element would receive the click: \u003cdiv class\u003d\"uk-panel uk-panel-box uk-panel-box-primary position-relative\" style\u003d\"border-radius: 5px; border: 1px solid;\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d100.0.4896.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027PC03\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-175-generic\u0027, java.version: \u00271.8.0_312\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /tmp/.com.google.Chrome.l9w6Po}, goog:chromeOptions: {debuggerAddress: localhost:34995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d25f4af95e740db58843619d5cff1b4a\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat selenium.Base.click(Base.java:33)\n\tat selenium.HomePage.firstCar(HomePage.java:42)\n\tat stepdefinitions.Steps.i_click_on_first_visible_car(Steps.java:34)\n\tat ✽.I click on first visible car(file:///home/himera/Desktop/Testiranje/src/test/resources/polovniAutoobili.feature:9)\n",
+              "duration": 1153000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I click on first visible car",
+            "match": {
+              "location": "stepdefinitions.Steps.i_click_on_first_visible_car()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I go to new opened window",
+            "match": {
+              "location": "stepdefinitions.Steps.i_go_to_new_opened_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I print our price",
+            "match": {
+              "location": "stepdefinitions.Steps.i_prin_tour_price()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regresion"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-20T17:26:44.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 459000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Steps.openDriver()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Filtering criteria for fuel",
+        "description": "",
+        "id": "base-testing-of-polovni-automobili;filtering-criteria-for-fuel",
+        "after": [
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Steps.kill()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3030000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on home page",
+            "match": {
+              "location": "stepdefinitions.Steps.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I open fuel menu",
+            "match": {
+              "location": "stepdefinitions.Steps.i_open_fuel_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I see that i ddid not o well",
+            "match": {
+              "location": "stepdefinitions.Steps.i_see_that_i_ddid_not_o_well()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Base testing of polovni automobili",
+    "description": "",
+    "id": "base-testing-of-polovni-automobili",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/polovniAutoobili.feature",
+    "tags": []
+  }
+]
